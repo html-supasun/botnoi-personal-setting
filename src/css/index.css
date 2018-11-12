@@ -1,0 +1,83 @@
+ body{
+    background: #62ceff;
+}
+.image__botnoi{
+    position:absolute;
+    width:100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    left: 0;
+    right: 0;
+    top: -1rem;
+}
+.container__form{
+    background: white;
+    margin-left: 1.0rem!important;
+    margin-right: 1.0rem!important;
+    margin-top: 4.0rem!important;
+    margin-bottom: 0.9rem!important;
+    padding-left: 0.9rem!important;
+    padding-right: 0.9rem!important;
+    padding-top: 3.0rem!important;
+    padding-bottom: 1.8rem!important;
+    border-radius: 4px;
+}
+.text__center{
+    text-align: center;
+}
+
+.btn__sex{
+    width: 50%;
+    background: #ffffff;
+    border: solid 0.5px #44bcfd;
+    color:#47bdfd;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+.btn__sex:hover{
+    background: #47bdfd;
+    color:#ffffff;
+}
+.btn__footer{
+    color: white!important;
+    width:100%;
+    background: green;
+}
+
+
+.font__string p,label,input,button,h2{
+    font-family: 'Mali', cursive;
+}
+.form-group label{
+    color: #40bef8;
+}
+.font__color p{
+    opacity: 0.74;
+}
+.font__placeholder input{
+    opacity: 0.28;
+    color: #292929;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.shadow__form{
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.07);
+}
+.shadow__input__box input,button{
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.03);
+}
+.color__input__box input{
+    border: solid 0.5px #0097dd;
+}
+
+
+@media (max-width: 576px) {
+    .font__string h2{
+        font-size: 1.6rem; 
+    }
+    .font__string p,label,input,button{
+        font-size: 0.8rem;
+    }
+}
